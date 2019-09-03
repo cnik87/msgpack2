@@ -1,5 +1,5 @@
 {
-    "name": "rybakit/msgpack",
+    "name": "cnik87/msgpack2",
     "description": "A pure PHP implementation of the MessagePack serialization format.",
     "keywords": ["msgpack", "messagepack", "pure", "streaming"],
     "type": "library",

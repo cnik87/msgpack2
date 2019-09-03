@@ -562,7 +562,7 @@ class BufferUnpacker
         return $num[1];
     }
 
-    private function unpackStrData($length)
+    public function unpackStrData($length)
     {
         if (!isset($this->buffer[$this->offset + $length - 1])) {
             throw InsufficientDataException::fromOffset($this->buffer, $this->offset, $length);
